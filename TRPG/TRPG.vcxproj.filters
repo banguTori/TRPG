@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{b25dfca3-3393-4419-8cda-2f4731bfe6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Status">
+      <UniqueIdentifier>{974fcf9d-c03f-443d-8482-5ad4869e5b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character">
+      <UniqueIdentifier>{ecc2db25-1d76-407e-9065-5473231d2816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\Player">
+      <UniqueIdentifier>{fd4fabdc-5fa9-4a88-a98c-fda6979f8811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\Monster">
+      <UniqueIdentifier>{a263271b-587a-4d1c-85a2-e5e9de9069b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{d5356f68-c04d-48ff-b54e-e428d7a7786a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\Equipment">
+      <UniqueIdentifier>{42a13f51-21b1-45e5-857d-01066aa3c585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\Equipment\Weapon">
+      <UniqueIdentifier>{967b1b94-4f87-4f1f-8f49-bbaa4472e861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\Equipment\Armor">
+      <UniqueIdentifier>{ab8435d1-062b-4d1b-996d-0da499b3ced5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{d13ef365-d3ac-4b39-8a8e-c02413755bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{257c2907-3cfd-4c1b-911b-f506ea50516f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\Lobby">
+      <UniqueIdentifier>{56a44046-a0bb-41e6-bb5c-34837fe27b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field\Dungeon">
+      <UniqueIdentifier>{d2903283-0b46-49ec-a253-fcb8ee25d216}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TRPG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Object\Item\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Object\Item\Equipment\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponDetail.cpp">
+      <Filter>Object\Item\Equipment\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Object\Item\Equipment\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor_Detail.cpp">
+      <Filter>Object\Item\Equipment\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Status</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Object\Item\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponDetail.h">
+      <Filter>Object\Item\Equipment\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Object\Item\Equipment\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Object\Item\Equipment\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor_Detail.h">
+      <Filter>Object\Item\Equipment\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Status</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
